@@ -1,0 +1,43 @@
+module.exports = {
+  cmdPerPage: 10,
+  adminId: "736578129144971264",
+  token: process.env.token,
+  clientId: process.env.clientId,
+  clientSecret: process.env.clientSecret,
+  port: 4200,
+  scopes: ["identify", "guilds", "applications.commands"],
+  serverDeafen: true,
+  defaultVolume: 100,
+  supportServer: "",
+  Issues: "",
+  permissions: 277083450689,
+  disconnectTime: 60000,
+  twentyFourSeven: false,
+  autoQueue: false,
+  autoPause: true,
+  debug: false,
+  cookieSecret: "k_ezz",
+  website: "http://localhost:4200",
+  nodes: [
+    {
+      identifier: "Main Node",
+      host: "node1.kartadharta.xyz",
+      port: 443,
+      password: "kdlavalink",
+      retryAmount: 99999999,
+      retryDelay: 1000,
+      secure: true,
+    },
+  ],
+  embedColor: "#000000",
+  presence: {
+    status: "online",
+    activities: [
+      {
+        name: "Ains sama",
+        type: "LISTENING",
+      },
+    ],
+  },
+  iconURL: "https://cdn.darrennathanael.com/icons/spinning_disk.gif",
+};
